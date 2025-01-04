@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Saikiran Nadiri Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #1a237e, #0d47a1, #1976d2);
+        color: #ffffff;
+      }
+
+      nav {
+        background-color: #0d47a1;
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      nav ul li a:hover {
+        background-color: #ffffff;
+        color: #0d47a1;
+      }
+
+      .section {
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      #home {
+        background: url('images\Saikiran.jpg') no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        text-shadow: 2px 2px 4px #000000;
+      }
+
+      #home h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      #home p {
+        font-size: 1.5rem;
+        margin: 10px 0;
+      }
+
+      #home .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #1976d2;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      #home .btn:hover {
+        background-color: #ffffff;
+        color: #1976d2;
+      }
+
+      .profile-image {
+        text-align: center;
+        margin: 20px auto;
+        border: 5px solid #ffffff;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      #about, #resume, #contact {
+        background-color: #f3f4f6;
+        color: #0d47a1;
+      }
+
+      #about h2, #resume h2, #contact h2 {
+        color: #0d47a1;
+        margin-bottom: 20px;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .tools, .experience {
+        text-align: left;
+      }
+
+      .tools ul, .experience ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      .experience ul li {
+        margin-bottom: 20px;
+      }
+
+      footer {
+        background-color: #0d47a1;
+        color: #ffffff;
+        padding: 10px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home">
+      <div class="profile-image">
+        <img src="C:\Users\nadir\Downloads\Saikiran Portfolio\images\Saikiran.jpg" alt="Profile Photo">
+      </div>
+      <h1>Saikiran Nadiri</h1>
+      <p>Java Full Stack Developer | AWS Certified Solutions Architect</p>
+      <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am an AWS Certified Solutions Architect and experienced Java Full Stack Developer with over 8 years of expertise in designing and deploying scalable, secure, and high-performance applications. Proficient in utilizing modern frameworks like Spring Boot, React.js, and Angular to create responsive and user-friendly interfaces. Skilled in managing cloud infrastructure with AWS and Azure, and developing efficient microservices architectures. My work emphasizes seamless integration, robust security, and optimized performance. I am passionate about delivering innovative solutions to complex technical challenges.</p>
+      </div>
+    </section>
+
+    <section id="resume" class="section">
+      <div class="container">
+        <h2>Resume</h2>
+        <div class="tools">
+          <h3>Tools and Technologies</h3>
+          <ul>
+            <li><strong>Programming Languages:</strong> Java, Python, C++, SQL, JavaScript</li>
+            <li><strong>Frameworks & Technologies:</strong> Spring Boot, React.js, Angular, Hibernate, Node.js</li>
+            <li><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL</li>
+            <li><strong>Cloud Platforms:</strong> AWS, Azure</li>
+            <li><strong>DevOps Tools:</strong> Jenkins, Docker, Kubernetes</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+          </ul>
+        </div>
+
+        <div class="experience">
+          <h3>Professional Experience</h3>
+          <ul>
+            <li>
+              <strong>Navy Federal Credit Union</strong><br>
+              Full Stack Java Developer | Oct 2023 - Present<br>
+              Project: Loan Lifecycle Management
+            </li>
+            <li>
+              <strong>Keefe Group</strong><br>
+              Full Stack Java Developer | Aug 2021 - Sep 2023<br>
+              Project: Secure Correctional Platform
+            </li>
+            <li>
+              <strong>Michaels Stores</strong><br>
+              Full Stack Java Developer | Dec 2019 - Jul 2021<br>
+              Project: Vendor Collaboration Platform
+            </li>
+            <li>
+              <strong>ABILITY Network</strong><br>
+              Software Engineer | Jun 2018 - Dec 2019<br>
+              Project: Health Insurance Management
+            </li>
+            <li>
+              <strong>Ahex Technologies</strong><br>
+              Associate Software Engineer | Jun 2016 - May 2018<br>
+              Project: Automotive Dealership CRM
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:nadirisaikiran18@gmail.com">nadirisaikiran18@gmail.com</a></p>
+        <p>Phone: (314) 648 2164</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/saikirannadiri">linkedin.com/in/saikirannadiri</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Saikiran Nadiri. All rights reserved.</p>
+    </footer>
+  </body>
+</
